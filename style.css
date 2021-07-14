@@ -1,0 +1,142 @@
+/* font-family: 'Poppins', sans-serif; */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 55px;
+  background-color: #2d25a0;
+  min-height: 500px;
+}
+
+.leftPart {
+  width: 45%;
+  padding-left: 90px;
+}
+
+.leftPart h1 {
+  margin: 0px;
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+}
+.leftPart button {
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  background-color: #e02c6d;
+  color: white;
+  border: 0px;
+  transition: 1s;
+}
+.leftPart button:hover {
+  background-color: gray;
+  border: 1px solid white;
+}
+.leftPart button a {
+  text-decoration: none;
+  color: white;
+}
+.leftPart button a i {
+  margin-left: 7px;
+}
+.rightPart {
+  width: 45%;
+}
+.rightPart img {
+  width: 100%;
+  transition: all 0.3s ease-in-out 0s;
+}
+.rightPart img:hover {
+  cursor: default;
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* Players Grid Start */
+.players {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.gridCell {
+  padding: 15px;
+  box-shadow: 0px 8px 10px #2125292d
+}
+.gridCell h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #18191f;
+}
+.gridCell p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+
+.gridCell img {
+  width: 100%;
+}
+/* Players Grid End */
+
+/* Video Part Start */
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.videoTextWrapper{
+    width: 40%;
+    padding: 20px;
+}
+.videoTextWrapper h4 {
+    font-size: 13px;
+    font-weight: 500;
+}
+    
+/* Video Part End */
+
+/* Stadium Part Start */
+.stadium{
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.mapTextWrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 45%;
+}
+/* Stadium Part End */
+
+/* Footer Start */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer img{
+    width: 50%;
+}
+.footerSocialIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerSocialIcons img{
+
+}
+/* Footer End */
