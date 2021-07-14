@@ -1,3 +1,90 @@
-@media () {
-    
+@media (min-width: 320px) and (max-width: 575px) {
+  .banner {
+    padding-top: 60px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+  }
+  .leftPart {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .leftPart h1 {
+    font-size: 32px;
+  }
+  .rightPart {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .rightPart img {
+    margin-top: 15px;
+  }
+
+  /* Second part one */
+
+  .players {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .gridContainer {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    }
+
+    .gridCell h3 {
+        margin: 10px 0;
+        font-size: 24px;
+    }
+    .gridCell p {
+        margin: 0;
+    }
+
+
+    /* video part */
+
+    .video {
+        padding: 40px 20px;
+        flex-wrap: wrap;
+    }
+    .videoWrapper{
+        width: 100%;
+    }
+    .videoWrapper iframe{
+        width: 100%;
+    }
+    .videoTextWrapper {
+        width: 100%;
+        padding: 0;
+    }
+    .videoTextWrapper h1 {
+        font-size: 20px;
+
+    }
+    /* Stadium section */
+    .stadium {
+        margin: 0;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+      }
+      .mapTextWrapper{
+        width: 100%;     
+    }
+      .mapWrapper{
+          width: 100%;
+      }
+      .mapWrapper iframe{
+          width: 100%;
+      }
+
+      /* Footer Section */
+      .footerSocialIcons a:not(:last-child){
+          margin-right: 15px;
+      }
+
+      .footerSocialIcons a img{
+          width: 32px;
+      }
+
 }
